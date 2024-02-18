@@ -11,3 +11,8 @@ This is my attempt at creating a chatbot using the Google DialogFlow CLI with Fi
 ## Relevant Files
 - The cli.ts file is the command line tool in typescript
 - As the webhooks could be created using only javascript through GCP, I created my own typescript version of the webhook which can found at webhook.ts
+
+## CLI Tool
+- Can create new chatbot sessions
+- Given a session id, can restore a session
+- User can continue interacting with the restored session from the state in which the session was left
