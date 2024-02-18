@@ -1,3 +1,5 @@
+// This is my TypeScript rendition of the webhook which is written in javascript
+
 import * as functions from 'firebase-functions';
 import * as admin from 'firebase-admin';
 import { WebhookClient } from 'dialogflow-fulfillment';

@@ -1,3 +1,6 @@
+// This is a CLI toool to interface with agent
+// Need to set GOOGLE_APPLICATION_CREDENTIALS environment variable to service account json key
+
 import * as dialogflow from '@google-cloud/dialogflow';
 
 const projectId: string = 'negoti-414622';
